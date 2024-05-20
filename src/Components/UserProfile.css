@@ -1,0 +1,42 @@
+.user-profile {
+   
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 255px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:#fff8dc;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+
+  .favorite-btn, .edit-btn,.delete-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    margin-left: 8px;
+    margin-right: 25px;
+    padding-top: 5px;
+    background-color:darkcyan;
+    color: rgb(241, 242, 244);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .favorite-btn:hover, .edit-btn:hover ,.delete-btn:hover {
+    background-color: #005f5f;
+  }
+  .edit-form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
